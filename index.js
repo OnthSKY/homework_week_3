@@ -5,8 +5,8 @@ app.get('/hello', function(req, res){
     res.send("Merhaba, GET isteği attınız");
 });
 app.post('/hello', function(req, res){
-    res.send("Merhaba, POST isteği attınız");
     console.log("Post isteği için istek gönderildi");
+    res.send("Merhaba, POST isteği attınız");
 });
 
 app.put('/hello', function(req, res){
