@@ -1,7 +1,7 @@
-const { response } = require('express');
 const express = require('express');
 const app = express();
 app.use(function(req,res,next){
+    console.log("Yeni bir istek geldi");
     if (req.method === 'POST'){
         console.log("Post isteği için istek gönderildi");
     }
