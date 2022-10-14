@@ -1,0 +1,30 @@
+{
+  "name": "homework_week_3",
+  "version": "1.0.0",
+  "description": "this project has created for homework of week 3 by SKY",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OnthSKY/homework_week_3.git"
+  },
+  "keywords": [
+    "nodejs",
+    "js",
+    "server",
+    "express",
+    "crud"
+  ],
+  "author": "SKY",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OnthSKY/homework_week_3/issues"
+  },
+  "homepage": "https://github.com/OnthSKY/homework_week_3#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
